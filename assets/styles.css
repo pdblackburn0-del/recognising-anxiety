@@ -4,11 +4,28 @@ html, body {
     margin: 0;
 }
 
+/*navbar styling*/
+#navbar .navbar {
+    background-color: #e6e6e6;
+
+}
+
+.navbar-brand {
+    font-size: 150%;
+    color: #4A90E2
+}
+.nav-link {
+    font-size: 100%;
+    color: #4A90E2
+
+}
+
 /* Flex layout to push footer down */
 body {
     display: flex;
     flex-direction: column;
 }
+
 
 /* Hero section */
 
@@ -28,6 +45,7 @@ body {
     margin: 0;
     color: #BFD6FF;
     text-align: center;
+    size : 48px;
 }
 
 /* H2: Center bottom */
@@ -38,12 +56,25 @@ body {
     margin: 0;
     text-align: center;
     color: whitesmoke;
+    
 }
+/*H3 Styling*/
+#hero .main-title h3 {
+        position: absolute;
+    bottom: 300px;             /* distance from bottom */
+    left: 50%;
+    transform: translateX(-50%); /* centers it horizontally */
+    margin: 0;
+    color: #BFD6FF;
+    text-align: center;}
+     
 /* Footer container */
 #footer {
     margin-top: auto;      /* pushes footer to the bottom */
     text-align: center;
     padding: 20px 0;
+    background-color: #e6e6e6;
+
 }
 
 /* Remove bullets + align icons */
@@ -59,5 +90,6 @@ body {
 /* Icon styling */
 #footer i {
     font-size: 160%;
-    color: #3a3a3a;
+    color: #4A90E2
+    
 }
