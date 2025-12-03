@@ -41,7 +41,7 @@ body {
 /* H1: Stick to middle */
 #hero .main-title h1 {
     position: absolute;
-    bottom: 150px;
+    bottom: 180px;
     left: 50%;
     transform: translateX(-50%);
     margin: 0;
@@ -59,7 +59,7 @@ body {
 /* H2: Center bottom */
 #hero .main-title h2 {
     position: absolute;
-    bottom: 20px;              /* distance from bottom */
+    bottom: 80px;              /* distance from bottom */
     left: 50px;
     margin: 0;
     text-align: center;
