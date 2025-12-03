@@ -134,6 +134,24 @@ body {
     margin: 0;
 }
 
+#types-of-anxiety .card {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+.types-title {
+    color: #4A90E2;
+    
+   
+}
+
+#types-of-anxiety .card-title {
+    font-weight: bold;
+}
+
+
 /* Remove bullets + align icons */
 #socials {
     list-style: none;
@@ -150,3 +168,4 @@ body {
     color: #4A90E2
     
 }
+
