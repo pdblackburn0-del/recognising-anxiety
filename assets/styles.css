@@ -169,3 +169,45 @@ body {
     
 }
 
+/*symptoms page styling*/
+#anxiety-symptoms .accordion-button {
+    background-color: #4A90E2;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+#anxiety-symptoms .accordion-button:not(.collapsed) {
+    background-color: #3A7BC0; /* slightly darker on open */
+    color: white;
+}
+
+#anxiety-symptoms .accordion-item {
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#anxiety-symptoms .accordion-body {
+    background: #f7f9fc;
+    color: #333;
+}
+
+#anxiety-symptoms .accordion-item {
+    border: none;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#anxiety-symptoms .accordion-button {
+    background-color: #4A90E2;
+    color: white;
+    font-weight: bold;
+}
+
+#anxiety-symptoms .accordion-button:not(.collapsed) {
+    background-color: #3A7BC0;
+    color: white;
+}
