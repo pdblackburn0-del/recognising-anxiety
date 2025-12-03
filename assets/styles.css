@@ -234,3 +234,45 @@ body {
     background-color: #3A7BC0;
     color: white;
 }
+/* Anxiety Treatment Cards (Matches Existing Color Scheme) */
+#treatment-cards .card {
+    background-color: #4A90E2;     /* main theme blue */
+    color: #ffffff;                /* white text */
+    border: none;
+    border-radius: 12px;           /* consistent with other rounded elements */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12); /* soft shadow like other sections */
+}
+
+
+#treatment-cards .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Card titles bold + readable */
+#treatment-cards .card-title {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Card text fixed to bottom */
+#treatment-cards .card-text {
+    margin-top: auto;
+    color: #ffffff;
+}
+
+/* Optional: make images consistent */
+#treatment-cards .card img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* Optional hover effect (soft lift) */
+#treatment-cards .card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+}
+#treatment-cards .card-body {
+    padding-bottom: 200px;
+}
