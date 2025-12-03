@@ -32,8 +32,8 @@ body {
 /* Hero section */
 
 #hero {
-    position: relative;         /* allows absolute positioning inside */
-    height: 100vh;              /* full screen height */
+    position: relative;         
+    height: 100vh;              
     width: 100%;
     background: url("../assets/images/dark-hero-image.png") no-repeat center center/cover;
 }
@@ -59,7 +59,7 @@ body {
 /* H2: Center bottom */
 #hero .main-title h2 {
     position: absolute;
-    bottom: 80px;              /* distance from bottom */
+    bottom: 100px;              /* distance from bottom */
     left: 50px;
     margin: 0;
     text-align: center;
@@ -80,7 +80,30 @@ body {
     flex: 0 0 auto;   /* keeps your 100vh height */
     height: 100vh;    /* full screen height */
 }
-     
+
+/* Hero Buttons – pinned to bottom */
+#hero-buttons {
+    position: absolute;
+    bottom: 30px;               /* adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;                /* ensures buttons appear above hero image */
+}
+
+/* Button Styling */
+#hero-buttons .btn {
+    background-color: black !important; /* dark blue */
+    color: #E6E6E6 !important;            /* light grey text */
+    border: none;
+    padding: 0px 10px;
+    font-size: 2rem;
+    border-radius: px;
+}
+
+#hero-buttons .btn:hover {
+    background-color: #012F5A !important; /* slightly darker on hover */
+    color: #FFFFFF !important;
+}
 /* Footer container */
 #footer {
     margin-top: auto;      /* pushes footer to the bottom */
