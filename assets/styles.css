@@ -5,9 +5,11 @@ html, body {
 }
 
 /*navbar styling*/
+
 #navbar .navbar {
     background-color: #e6e6e6;
-
+    position: relative;
+    z-index: 1000;   /* stays above hero headings */
 }
 
 .navbar-brand {
@@ -39,13 +41,19 @@ body {
 /* H1: Stick to middle */
 #hero .main-title h1 {
     position: absolute;
-    bottom: 150px;             /* distance from bottom */
+    bottom: 150px;
     left: 50%;
-    transform: translateX(-50%); /* centers it horizontally */
+    transform: translateX(-50%);
     margin: 0;
-    color: #BFD6FF;
+    color: #FFFFFF;
     text-align: center;
-    size : 48px;
+    font-size: 50px;              /* correct property */
+    transition: transform 0.3s ease;  /* smooth hover animation */
+}
+
+#hero .main-title h1:hover {
+    transform: translateX(-50%) scale(1.15);  
+    /* grow 15% while staying centered */
 }
 
 /* H2: Center bottom */
@@ -67,6 +75,11 @@ body {
     margin: 0;
     color: #BFD6FF;
     text-align: center;}
+
+    #hero {
+    flex: 0 0 auto;   /* keeps your 100vh height */
+    height: 100vh;    /* full screen height */
+}
      
 /* Footer container */
 #footer {
@@ -75,6 +88,50 @@ body {
     padding: 20px 0;
     background-color: #e6e6e6;
 
+}
+
+/*What is anxiety styling*/
+/* Main content wrapper */
+#main-content {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.06);
+}
+
+/* Section title */
+/* Full-width container with 20px spacing each side */
+.anxiety-section {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    max-width: 100%;
+    background-color: #4A90E2;  /* NEW blue background */
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Heading style to match color theme */
+.anxiety-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;      /* NEW white text */
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+.anxiety-text {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #ffffff;      /* NEW white text */
+    margin: 0;
 }
 
 /* Remove bullets + align icons */
