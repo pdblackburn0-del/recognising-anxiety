@@ -89,21 +89,3 @@ Open index.html in your browser.
 
 No installation or server setup required.
 
-🌐 Live Demo
-
-(Add your hosted link here, e.g., GitHub Pages or Netlify)
-Demo Placeholder:
-
-Your live site link goes here once deployed.
-
-✨ Future Improvements
-
-Add more mental-health resources
-
-Include interactive self-assessment tools
-
-Add animations or transitions
-
-Expand treatment information
-
-Add FAQs and contact page
