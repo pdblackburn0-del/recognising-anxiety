@@ -26,6 +26,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background-color: #0A1A2F;
 }
 
 
@@ -119,8 +120,8 @@ body {
     max-width: 900px;
     margin: 60px auto;
     padding: 30px;
-    background-color: #ffffff;
-    border-radius: 10px;
+    background-color: lightblue;
+    border-radius: 5px;
     border: 1px solid #d9d9d9;
     box-shadow: 0px 4px 12px rgba(0,0,0,0.06);
 }
@@ -157,6 +158,8 @@ body {
     margin: 0;
 }
 
+/* Types of Anxiety Cards */
+
 #types-of-anxiety .card {
     background-color: #4A90E2;
     color: white;
@@ -165,7 +168,7 @@ body {
 }
 
 .types-title {
-    color: #4A90E2;
+    color: #ffffff;
     
    
 }
@@ -175,7 +178,6 @@ body {
 }
 
 
-/* Remove bullets + align icons */
 #socials {
     list-style: none;
     padding: 0;
@@ -193,6 +195,25 @@ body {
 }
 
 /*symptoms page styling*/
+
+#symptoms-hero {
+    position: relative;
+    width: 100%;
+    height: 60vh;   /* adjust if needed */
+    background: url("../assets/images/") 
+        no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Optional: Title styling inside Symptoms Hero */
+#symptoms-hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+}
 #anxiety-symptoms .accordion-button {
     background-color: #4A90E2;
     color: white;
@@ -201,7 +222,7 @@ body {
 }
 
 #anxiety-symptoms .accordion-button:not(.collapsed) {
-    background-color: #3A7BC0; /* slightly darker on open */
+    background-color: #3A7BC0; 
     color: white;
 }
 
@@ -234,12 +255,12 @@ body {
     background-color: #3A7BC0;
     color: white;
 }
-/* Anxiety Treatment Cards (Matches Existing Color Scheme) */
+/* Anxiety Treatment Cards*/
 #treatment-cards .card {
     background-color: #4A90E2;     /* main theme blue */
     color: #ffffff;                /* white text */
     border: none;
-    border-radius: 12px;           /* consistent with other rounded elements */
+    border-radius: 12px;           
     box-shadow: 0 4px 12px rgba(0,0,0,0.12); /* soft shadow like other sections */
 }
 
