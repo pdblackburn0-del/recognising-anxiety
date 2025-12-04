@@ -68,6 +68,13 @@ Responsive Design Principles
 
 🎨 Wireframes
 
+![IMG_2537](https://github.com/user-attachments/assets/570f3136-bfce-4493-b224-df719334f871)
+
+![IMG_2538](https://github.com/user-attachments/assets/b96c0da1-14e2-4ced-8db8-44aea425ff28)
+
+![IMG_2539](https://github.com/user-attachments/assets/b8cb024b-fae8-47a9-bfb9-598d51d57f4a)
+
+
 
 Add your homepage, symptoms page, treatments page, and mobile-view wireframes in this section.
 
